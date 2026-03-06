@@ -326,7 +326,6 @@ multiagent-research/
 └── theoretical_solution_*.tex  # Generated LaTeX papers (gitignored recommended)
 ```
 
-> **Tip:** Add `research_report_*.md`, `theoretical_solution_*.tex`, `*.log`, `*.aux`, `*.pdf` to your `.gitignore` to keep the repository clean.
 
 ---
 
