@@ -333,7 +333,7 @@ multiagent-research/
 
 ### Stateless LLM calls
 
-All agents share a single `llm()` helper function. Every call creates a **fresh** messages array with only `system` + `user` roles — no chat history is ever accumulated. This eliminates cross-run domain contamination (the main cause of a radar-specialised model generating radar output for unrelated topics).
+All agents share a single `llm()` helper function. Every call creates a **fresh** messages array with only `system` + `user` roles — no chat history is ever accumulated. This eliminates cross-run domain contamination.
 
 ### Context chunking
 
@@ -346,7 +346,7 @@ slug = re.sub(r"[^\w\s-]", "", query.lower())[:40]
 slug += "_" + hashlib.md5(query.encode()).hexdigest()[:6]
 ```
 
-Two similar queries (e.g. "radar clutter" vs "radar clutter mitigation") produce different slugs because the hash is computed from the full query string.
+Two similar queries produce different slugs because the hash is computed from the full query string.
 
 ### Domain detection
 
