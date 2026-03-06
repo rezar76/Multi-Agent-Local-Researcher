@@ -196,14 +196,6 @@ Pass your research query as a command-line argument:
 python multiagent_research.py "Investigate transfer learning approaches for low-resource NLP tasks"
 ```
 
-```bash
-python multiagent_research.py "What are the most effective portfolio optimisation strategies under tail-risk constraints?"
-```
-
-```bash
-python multiagent_research.py "Derive a mathematical formulation for clutter mitigation in 77 GHz FMCW radar using MIMO virtual array synthesis"
-```
-
 ### Interactive Mode
 
 Run without arguments and enter the query when prompted:
